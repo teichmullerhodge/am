@@ -1,0 +1,26 @@
+[ ] 01. Inicializar o GLFW e verificar se a inicialização foi bem-sucedida.
+[ ] 02. Configurar o OpenGL 3.3 Core Profile utilizando glfwWindowHint().
+[ ] 03. Criar uma janela de 800 × 600 pixels com o título "AM Engine - Lesson 01".
+[ ] 04. Tornar o contexto OpenGL da janela atual utilizando glfwMakeContextCurrent().
+[ ] 05. Inicializar o GLAD e verificar possíveis erros.
+[ ] 06. Exibir no terminal a versão do OpenGL, o fabricante da GPU e o renderer utilizado. Pesquise glGetString().
+[ ] 07. Implementar um game loop que permaneça executando enquanto a janela estiver aberta.
+[ ] 08. Definir uma cor de fundo utilizando glClearColor() e limpar o framebuffer com glClear().
+[ ] 09. Implementar a troca de buffers utilizando glfwSwapBuffers().
+[ ] 10. Processar os eventos da janela utilizando glfwPollEvents().
+[ ] 11. Permitir fechar a janela pressionando ESC.
+[ ] 12. Liberar os recursos corretamente ao encerrar o programa.
+
+DESAFIOS INTERMEDIÁRIOS
+[ ] 13. Implementar um framebuffer size callback para atualizar glViewport() quando a janela for redimensionada.
+[ ] 14. Permitir alternar a cor de fundo pressionando a tecla ESPAÇO, sem trocar repetidamente enquanto ela permanecer pressionada.
+[ ] 15. Utilizar glfwGetTime() para fazer a cor de fundo variar suavemente ao longo do tempo.
+[ ] 16. Implementar um contador de FPS e exibi-lo no terminal a cada segundo.
+[ ] 17. Implementar delta time, calculando o intervalo entre dois frames consecutivos.
+[ ] 18. Permitir ativar e desativar VSync utilizando glfwSwapInterval() e observar a diferença no FPS.
+
+DESAFIOS EXTRAS
+[ ] 19. Permitir alternar entre modo janela e fullscreen pressionando F11. Pesquise glfwSetWindowMonitor().
+[ ] 20. Implementar um limite de FPS independente do VSync, utilizando uma estratégia de controle de tempo. Compare os resultados.
+[ ] 21. Criar uma função para registrar erros do GLFW utilizando glfwSetErrorCallback().
+[ ] 22. Organizar o código em funções como init_window(), process_input(), update() e render(), sem utilizar classes por enquanto.
