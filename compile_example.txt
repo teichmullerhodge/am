@@ -1,3 +1,10 @@
+# first compile 
+cmake -S . -B build -G Ninja
+
+# compile everything
+cmake --build build
+
+# compile one example 
 cmake --build build --target 02-hello-triangle
 
 # compile the engine 
